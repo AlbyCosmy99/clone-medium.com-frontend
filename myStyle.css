@@ -152,10 +152,48 @@ body {
     text-align: center;
     border-radius: 30px;
     cursor: pointer;
+    border: 1px solid white;
+    font-size: 17px;
 }
 
 .down-right-item {
     padding-left: 60px;
     padding-right: 100px;
     margin-top: 30px;
+}
+
+.who-to-follow-container {
+    margin-top: 55px;
+}
+
+.creator-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+}
+
+.creator-img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.creator-desc {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.follow-btn {
+    height: 40px;
+    width: 75px;
+    border: 1px solid grey;
+    border-radius: 30px;
+    margin-left: 80px;
+    font-size: 16px;
+    background-color: white;
+    cursor: pointer;
 }
