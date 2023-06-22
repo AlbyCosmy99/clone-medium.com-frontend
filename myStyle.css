@@ -83,6 +83,18 @@ body {
     margin-right: 60px;
 }
 
+.title {
+    display: inline;
+    font-size: 17px;
+}
+
+.titles {
+    border-bottom: 1px solid rgba(162, 157, 160, 0.4);
+    padding-bottom: 10px;
+    position: sticky; 
+    top: 30px;
+}
+
 .container {
     display: flex;
     flex-direction: row;
@@ -200,7 +212,74 @@ body {
     cursor: pointer;
 }
 
-.title {
-    display: inline;
-    font-size: 17px;
+.article-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 60px;
+}
+
+.article-first-line-container  {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-end;
+    gap: 10px;
+}
+
+.writter-photo {
+    width: 26px;
+    height: 26px;
+    object-fit: cover;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.second-line {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.article-desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-right: 50px;
+    cursor: pointer;
+}
+
+.article-ph {
+    width: 220px;
+    height: 220px;
+    object-fit: fill;
+}
+
+.third-line {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 65%;
+}
+
+.third-line-left {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    opacity: 0.6;
+}
+
+.article-btn-right {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
 }
